@@ -5,7 +5,7 @@ def get_matrix(n, m, value):
         matrix.append([])  # Добавили пустой список в список matrix
         for j in range(m):  # Диапазон перебераемый для m (кол-во столбцов)
             matrix[i].append(value)  # Пополнить пустой список matrix.append([])значением value
-    print(matrix)
+
     return matrix  # Вернуть значение matrix
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
